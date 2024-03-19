@@ -38,3 +38,35 @@ export const headerLinks = [
     ],
   },
 ];
+
+export const footerLinks = [
+  {
+    title: "About",
+    links: [
+      { label: "Who We Are", url: "" },
+      { label: "Our Values", url: "" },
+      { label: "Team", url: "" },
+    ],
+  },
+  {
+    title: "Services",
+    links: [
+      { label: "Web Development", url: "" },
+      { label: "E-commerce Solutions", url: "" },
+      { label: "SEO Optimization", url: "" },
+    ],
+  },
+  {
+    title: "Support",
+    links: [
+      { label: "FAQ", url: "" },
+      { label: "Contact Us", url: "" },
+      { label: "Instagram", url: "" },
+      { label: "Linkedin", url: "" },
+    ],
+  },
+  {
+    title: "Legal",
+    links: [{ label: "Privacy Policy", url: "" }],
+  },
+];

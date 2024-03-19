@@ -50,21 +50,21 @@ const NavItems = () => {
                             <Link
                               aria-label="home link"
                               href="/"
-                              className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
+                              className="navItems-homeLink"
                             >
                               <Image
                                 src="/assets/images/w-light.svg"
                                 alt="w logo light"
                                 width={30}
                                 height={30}
-                                className="flex dark:hidden"
+                                className="block dark:hidden"
                               />
                               <Image
                                 src="/assets/images/w-dark.svg"
                                 alt="w logo dark"
                                 width={30}
                                 height={30}
-                                className="hidden dark:flex"
+                                className="hidden dark:block"
                               />
                               <div className="mb-2 mt-4 text-base font-medium">
                                 Developed By Will
@@ -83,7 +83,7 @@ const NavItems = () => {
                           <Link
                             aria-label={`${sublink.title + "link"}`}
                             href={sublink.route}
-                            className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                            className="navItems-sublink"
                           >
                             <div className="text-sm font-medium leading-none">
                               {sublink.title}

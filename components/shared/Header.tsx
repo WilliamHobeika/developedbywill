@@ -22,12 +22,13 @@ const Header = () => {
             <Image
               src="/assets/images/w-light.svg"
               alt="w logo light"
+              priority
               width={30}
               height={30}
             />
             <Image
               src="/assets/images/separator.svg"
-              alt="seperator"
+              alt="separator"
               width={28}
               height={28}
               className="hidden -rotate-12 sm:block"
@@ -49,12 +50,13 @@ const Header = () => {
             <Image
               src="/assets/images/w-dark.svg"
               alt="w logo dark"
+              priority
               width={30}
               height={30}
             />
             <Image
               src="/assets/images/separator.svg"
-              alt="seperator"
+              alt="separator"
               width={28}
               height={28}
               className="hidden -rotate-12 sm:block"

@@ -29,6 +29,7 @@ const MobileNav = () => {
             <Image
               src="/assets/images/w-light.svg"
               alt="w logo light"
+              priority
               width={30}
               height={30}
             />
@@ -37,6 +38,7 @@ const MobileNav = () => {
             <Image
               src="/assets/images/w-dark.svg"
               alt="w logo dark"
+              priority
               width={30}
               height={30}
             />
