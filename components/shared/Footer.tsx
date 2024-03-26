@@ -6,9 +6,9 @@ import { footerLinks } from "@/constant";
 
 const Footer = () => {
   return (
-    <footer className="flex min-h-[400px] w-full border-t">
+    <footer className="footer">
       <div className="wrapper">
-        <div className="grid-cols-footer grid gap-8 lg:flex lg:flex-wrap lg:justify-between">
+        <div className="links-container">
           <div className="col-span-full flex items-center justify-between lg:items-start">
             <Link
               href="/"
@@ -82,7 +82,7 @@ const Footer = () => {
                   <Link
                     href={sublink.url}
                     key={sublink.label}
-                    className="text-grey-light transition-colors hover:text-foreground dark:text-grey-dark dark:hover:text-foreground"
+                    className="footer-sublink"
                   >
                     {sublink.label}
                   </Link>
